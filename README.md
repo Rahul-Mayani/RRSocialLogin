@@ -63,6 +63,12 @@ private func facebookLogin() {
     }).disposed(by: rxbag)
 }
 
+fileprivate func socialLogin(user :SocialUserDetails) {
+    print(user.type) // Google or Facebook user
+    print(user.name)
+    print(user.email)
+}
+
 ```
 
 ## Contribute
