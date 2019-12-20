@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D4BDF250EE845B6ACE0B51A /* Pods_RRSocialLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6498CD0CEE838D3EF2103A /* Pods_RRSocialLogin.framework */; };
+		EEC917F523ACA50000697A78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC917ED23ACA50000697A78 /* ViewController.swift */; };
+		EEC917F623ACA50000697A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC917EE23ACA50000697A78 /* Assets.xcassets */; };
+		EEC917F723ACA50000697A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC917EF23ACA50000697A78 /* LaunchScreen.storyboard */; };
+		EEC917F823ACA50000697A78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC917F123ACA50000697A78 /* Main.storyboard */; };
+		EEC917F923ACA50000697A78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC917F323ACA50000697A78 /* AppDelegate.swift */; };
+		EEC917FC23ACAAD200697A78 /* RRFBLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC917FB23ACAAD200697A78 /* RRFBLogin.swift */; };
+		EEC917FE23ACAAE300697A78 /* RRGoogleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC917FD23ACAAE300697A78 /* RRGoogleLogin.swift */; };
+		EEC9180023ACAB2D00697A78 /* SocialStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC917FF23ACAB2D00697A78 /* SocialStruct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B30D643A6E28D2C8134607B /* Pods-RRSocialLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRSocialLogin.release.xcconfig"; path = "Target Support Files/Pods-RRSocialLogin/Pods-RRSocialLogin.release.xcconfig"; sourceTree = "<group>"; };
+		7F6498CD0CEE838D3EF2103A /* Pods_RRSocialLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RRSocialLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B943FA126A2C06E73425E85F /* Pods-RRSocialLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRSocialLogin.debug.xcconfig"; path = "Target Support Files/Pods-RRSocialLogin/Pods-RRSocialLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC917D523ACA46F00697A78 /* RRSocialLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRSocialLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC917ED23ACA50000697A78 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEC917EE23ACA50000697A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEC917F023ACA50000697A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEC917F223ACA50000697A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEC917F323ACA50000697A78 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEC917F423ACA50000697A78 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC917FB23ACAAD200697A78 /* RRFBLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRFBLogin.swift; sourceTree = "<group>"; };
+		EEC917FD23ACAAE300697A78 /* RRGoogleLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRGoogleLogin.swift; sourceTree = "<group>"; };
+		EEC917FF23ACAB2D00697A78 /* SocialStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialStruct.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEC917D223ACA46F00697A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4BDF250EE845B6ACE0B51A /* Pods_RRSocialLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DB3F2CF920C14454AE342F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6498CD0CEE838D3EF2103A /* Pods_RRSocialLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E9AEE07BD20CC363D3AF813 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B943FA126A2C06E73425E85F /* Pods-RRSocialLogin.debug.xcconfig */,
+				2B30D643A6E28D2C8134607B /* Pods-RRSocialLogin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEC917CC23ACA46F00697A78 = {
+			isa = PBXGroup;
+			children = (
+				EEC917EC23ACA50000697A78 /* RRSocialLogin */,
+				EEC917D623ACA46F00697A78 /* Products */,
+				5E9AEE07BD20CC363D3AF813 /* Pods */,
+				02DB3F2CF920C14454AE342F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEC917D623ACA46F00697A78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEC917D523ACA46F00697A78 /* RRSocialLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC917EC23ACA50000697A78 /* RRSocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				EEC917ED23ACA50000697A78 /* ViewController.swift */,
+				EEC917FF23ACAB2D00697A78 /* SocialStruct.swift */,
+				EEC917FB23ACAAD200697A78 /* RRFBLogin.swift */,
+				EEC917FD23ACAAE300697A78 /* RRGoogleLogin.swift */,
+				EEC917EE23ACA50000697A78 /* Assets.xcassets */,
+				EEC917EF23ACA50000697A78 /* LaunchScreen.storyboard */,
+				EEC917F123ACA50000697A78 /* Main.storyboard */,
+				EEC917F323ACA50000697A78 /* AppDelegate.swift */,
+				EEC917F423ACA50000697A78 /* Info.plist */,
+			);
+			path = RRSocialLogin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEC917D423ACA46F00697A78 /* RRSocialLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC917E923ACA47100697A78 /* Build configuration list for PBXNativeTarget "RRSocialLogin" */;
+			buildPhases = (
+				91F68D25D18C505DBC115FA6 /* [CP] Check Pods Manifest.lock */,
+				EEC917D123ACA46F00697A78 /* Sources */,
+				EEC917D223ACA46F00697A78 /* Frameworks */,
+				EEC917D323ACA46F00697A78 /* Resources */,
+				0984D156C358FAEBC58EC321 /* [CP] Embed Pods Frameworks */,
+				25CECE1E0AB8116CAC4B0205 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRSocialLogin;
+			productName = SocialLogin;
+			productReference = EEC917D523ACA46F00697A78 /* RRSocialLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEC917CD23ACA46F00697A78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = RR;
+				TargetAttributes = {
+					EEC917D423ACA46F00697A78 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = EEC917D023ACA46F00697A78 /* Build configuration list for PBXProject "RRSocialLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEC917CC23ACA46F00697A78;
+			productRefGroup = EEC917D623ACA46F00697A78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEC917D423ACA46F00697A78 /* RRSocialLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEC917D323ACA46F00697A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC917F823ACA50000697A78 /* Main.storyboard in Resources */,
+				EEC917F623ACA50000697A78 /* Assets.xcassets in Resources */,
+				EEC917F723ACA50000697A78 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0984D156C358FAEBC58EC321 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RRSocialLogin/Pods-RRSocialLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RRSocialLogin/Pods-RRSocialLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RRSocialLogin/Pods-RRSocialLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25CECE1E0AB8116CAC4B0205 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RRSocialLogin/Pods-RRSocialLogin-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RRSocialLogin/Pods-RRSocialLogin-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RRSocialLogin/Pods-RRSocialLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F68D25D18C505DBC115FA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RRSocialLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEC917D123ACA46F00697A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC917FE23ACAAE300697A78 /* RRGoogleLogin.swift in Sources */,
+				EEC917F923ACA50000697A78 /* AppDelegate.swift in Sources */,
+				EEC917FC23ACAAD200697A78 /* RRFBLogin.swift in Sources */,
+				EEC917F523ACA50000697A78 /* ViewController.swift in Sources */,
+				EEC9180023ACAB2D00697A78 /* SocialStruct.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEC917EF23ACA50000697A78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC917F023ACA50000697A78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EEC917F123ACA50000697A78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC917F223ACA50000697A78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEC917E723ACA47100697A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEC917E823ACA47100697A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC917EA23ACA47100697A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B943FA126A2C06E73425E85F /* Pods-RRSocialLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/RRSocialLogin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rr.SocialLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEC917EB23ACA47100697A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B30D643A6E28D2C8134607B /* Pods-RRSocialLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/RRSocialLogin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rr.SocialLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEC917D023ACA46F00697A78 /* Build configuration list for PBXProject "RRSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC917E723ACA47100697A78 /* Debug */,
+				EEC917E823ACA47100697A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC917E923ACA47100697A78 /* Build configuration list for PBXNativeTarget "RRSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC917EA23ACA47100697A78 /* Debug */,
+				EEC917EB23ACA47100697A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEC917CD23ACA46F00697A78 /* Project object */;
+}

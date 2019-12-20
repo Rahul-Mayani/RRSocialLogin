@@ -1,0 +1,6 @@
+framework module Pods_RRSocialLogin {
+  umbrella header "Pods-RRSocialLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

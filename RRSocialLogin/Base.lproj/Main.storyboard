@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RRSocialLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uG-iW-TYD">
+                                <rect key="frame" x="107" y="375.5" width="200" height="45"/>
+                                <color key="backgroundColor" red="0.31580580742659797" green="0.33282060348995635" blue="0.85573186528497414" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Heu-SF-SpE"/>
+                                    <constraint firstAttribute="width" constant="200" id="Q0P-ew-Fwn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Facebook">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0h-fw-pR7">
+                                <rect key="frame" x="107" y="470.5" width="200" height="45"/>
+                                <color key="backgroundColor" red="0.8620263924870466" green="0.28139450887840167" blue="0.21569675873024341" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Google">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1uG-iW-TYD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QAx-2h-6wR"/>
+                            <constraint firstItem="b0h-fw-pR7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RHa-TJ-fok"/>
+                            <constraint firstItem="b0h-fw-pR7" firstAttribute="top" secondItem="1uG-iW-TYD" secondAttribute="bottom" constant="50" id="aGF-yX-0ma"/>
+                            <constraint firstItem="1uG-iW-TYD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="fKw-oP-DWK"/>
+                            <constraint firstItem="b0h-fw-pR7" firstAttribute="width" secondItem="1uG-iW-TYD" secondAttribute="width" id="pfu-rg-d9f"/>
+                            <constraint firstItem="b0h-fw-pR7" firstAttribute="height" secondItem="1uG-iW-TYD" secondAttribute="height" id="sEW-hZ-YDd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="fbButton" destination="1uG-iW-TYD" id="87e-Lt-aDm"/>
+                        <outlet property="googleButton" destination="b0h-fw-pR7" id="V3M-Ue-jOx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="139"/>
+        </scene>
+    </scenes>
+</document>
