@@ -5,8 +5,11 @@ Social (FB and Google) login by RxSwift
 ## Requirements
 
 pod 'RxCocoa'
+
 pod 'RxSwift'
+
 pod 'FBSDKLoginKit'
+
 pod 'GoogleSignIn'
 
 
